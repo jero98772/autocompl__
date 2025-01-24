@@ -33,6 +33,8 @@ Once the server is running, open the following URLs in your browser to access di
 ### Version 3: Enhanced Parallel Processing and Pruning
 - **Dataset:** 3 datasets
 - **Features:** Enhanced R-way Trie with parallel processing and pruning for even better performance
+- **Access:** [http://localhost:8000/slow.html](http://localhost:8000/parallel.html)
+
 
 ## Why I Built This
 
