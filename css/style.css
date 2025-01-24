@@ -1,0 +1,44 @@
+/* Global body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Input field styles */
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Unordered list (ul) styles */
+ul {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* List item (li) styles */
+li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Hover effect on list items */
+li:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Error message styles */
+#error {
+    margin: 10px 0;
+    color: red;
+}
+
+/* Status message styles */
+#status {
+    margin: 10px 0;
+    color: green;
+}
