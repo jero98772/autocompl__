@@ -79,7 +79,7 @@ const errorDiv = document.getElementById("error");
 const statusDiv = document.getElementById("status");
 
 async function createParallelLoader(maxThreads = 3) {
-    const files = ['words.txt', 'words_en.txt', 'words_ge.txt'];
+    const files = ['data/words.txt', 'data/words_en.txt', 'data/words_ge.txt'];
     let completedFiles = 0;
     const taskQueue = [...files]; // Queue of files to process
     const activeWorkers = [];

@@ -97,7 +97,7 @@ async function loadWordsFromFile(filePath) {
 }
 
 let completedFiles = 0;
-const files = ['words.txt', 'words_en.txt', 'words_ge.txt'];
+const files = ['data/words.txt', 'data/words_en.txt', 'data/words_ge.txt'];
 for (var i = files.length - 1; i >= 0; i--) {
     statusDiv.textContent = `Loaded ${completedFiles}/${files.length} word files`;
     loadWordsFromFile(files[i]);
